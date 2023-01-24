@@ -1,0 +1,20 @@
+# Wordpress - ignore core, configuration, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Configuration
+wp-config.php
+
+# Uploads
+/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+#All in One Backup files
+/wp-content/ai1wm-backups
+
+#IDE
+/.vscode
